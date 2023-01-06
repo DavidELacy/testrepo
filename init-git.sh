@@ -12,3 +12,4 @@ git remote set-url --add --push all $HUB
 git remote set-url --add --push all $DEPLOY
 git fetch all
 git branch --set-upstream-to all/master
+read -sp "Press Enter To Close"
